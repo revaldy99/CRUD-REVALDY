@@ -4,4 +4,13 @@
 function salam(nama){
   console.log("Hallo"+nama+"Selamat Pagi")
 }
+
+
+//2.
+function tambah(bilanganPertama,bilanganKedua){
+    var result = bilanganPertama + bilanganKedua;
+    return result;
+  
+  }
+tambah(5, 2);
   
