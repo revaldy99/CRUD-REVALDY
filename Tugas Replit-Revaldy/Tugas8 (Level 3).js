@@ -11,8 +11,11 @@
             }
         }
         //8.2
-        let kata = 'PURWAKARTA'
-        kata = kata.replace(/A/g, "o")
-        console.log(kalimat)
+        const deretAngka = "123454321";
+       let angkaTarget = "4";
+       let angkaPengganti = "7";
+  
+       let my_new_string = deretAngka.replaceAll(angkaTarget,angkaPengganti);
+       console.log(my_new_string);
 
 
